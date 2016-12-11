@@ -20,7 +20,6 @@ class AlbumList extends Component {
 
 //Rendering
   render() {
-    console.log(this.state);
     return (
       <ScrollView>
         {this.renderAlbums()}
